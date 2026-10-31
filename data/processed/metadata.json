@@ -1,0 +1,13 @@
+{
+  "dataset": "Tiny Shakespeare",
+  "tokenization": "word-level, punctuation preserved",
+  "split_ratio": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "total_tokens": 262927,
+  "vocabulary_size": 11786,
+  "unknown_token": "<UNK>",
+  "padding_token": "<PAD>"
+}

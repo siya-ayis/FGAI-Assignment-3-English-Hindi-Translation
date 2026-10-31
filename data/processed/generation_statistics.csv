@@ -1,0 +1,13 @@
+Model,Temperature,Word Count,Unique Words,Distinct-1 (%),Repeated Word Rate (%)
+Simple RNN,0.5,50,39,78.0,22.0
+Simple RNN,0.8,55,46,83.64,16.36
+Simple RNN,1.2,56,46,82.14,17.86
+Bidirectional RNN,0.5,50,41,82.0,18.0
+Bidirectional RNN,0.8,52,39,75.0,25.0
+Bidirectional RNN,1.2,50,41,82.0,18.0
+LSTM,0.5,53,34,64.15,35.85
+LSTM,0.8,54,42,77.78,22.22
+LSTM,1.2,53,46,86.79,13.21
+GRU,0.5,53,27,50.94,49.06
+GRU,0.8,54,42,77.78,22.22
+GRU,1.2,57,51,89.47,10.53
