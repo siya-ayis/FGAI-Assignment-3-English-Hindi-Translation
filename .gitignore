@@ -1,0 +1,16 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS files
+.DS_Store
+
+# Large intermediate dataset
+data/processed/model_ready_sequences.pt
