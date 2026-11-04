@@ -1,0 +1,11 @@
+{
+  "model": "Gemma-2-2B-IT LoRA",
+  "test_examples": 100,
+  "BLEU": 9.051852417047296,
+  "chrF": 35.920805008790445,
+  "training_time_minutes": 14.483038214842479,
+  "inference_time_seconds": 438.15261459350586,
+  "average_inference_seconds": 4.381526145935059,
+  "trainable_parameters": 3194880,
+  "total_parameters": 2617536768
+}

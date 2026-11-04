@@ -1,0 +1,8 @@
+Model,Approach,Test examples,BLEU,chrF,Avg inference (s),Training time (min),Status
+Transformer from scratch,Train from scratch,2507.0,0.15,4.72,0.1846669325887515,3.85,Completed
+mT5-small,Fine-tuning attempt,,,,,,Unstable; invalid evaluation
+TinyLlama 1.1B,Zero-shot,100.0,0.63,13.25,3.08,0.0,Completed
+TinyLlama 1.1B,LoRA,100.0,0.66,12.99,3.24,4.2,Completed
+Gemma 2 2B,Zero-shot,100.0,12.43,38.84,1.97,0.0,Completed
+Gemma 2 2B,LoRA,100.0,9.051852,35.920805,4.381526,14.483,Completed; scores declined
+OPUS-MT en-hi,Additional translation baseline,2507.0,9.88,32.33,0.2951495811727164,,Additional baseline
